@@ -1,0 +1,347 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(235, 229, 221);
+}
+
+.icones {
+    align-items: center;
+    flex-direction: row;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.home {
+    text-decoration: gray;
+    color: gray;
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#gallery {
+    font-size: 10pc;
+    justify-content: center;
+}
+
+.section1 {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.img1-8 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bloc1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bloc2 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -100px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+    width: 100px;
+    height: 100px;
+}
+
+.AboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    height: 60px;
+    text-align: justify;
+    margin-left: 475px;
+    font-size: 10px;
+}
+
+.Aboutus {
+    font-size: 25px;
+    text-align: center;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    height: 60px;
+    text-align: justify;
+    margin-right: 475px;
+    font-size: 10px;
+}
+
+.Wwedo {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Free_Designer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    margin-right: 400px;
+    margin-top: 200px;
+    position: relative;
+    left: 645px;
+}
+
+.textdesign {
+    text-align: center;
+}
+
+.Button {
+    background-color: orange;
+    margin-bottom: 5px;
+}
+
+.orange {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    background-color: orange
+}
+
+.écrit {
+    width: 600px;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    margin-left: 385px;
+}
+
+.employees {
+    display: flex;
+    align-content: center;
+    width: 300px;
+    height: 80px;
+    margin-left: 300px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 100px;
+}
+
+.E1 {
+    width: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25px;
+}
+
+.E2 {
+    width: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25px;
+}
+
+.E3 {
+    width: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25px;
+}
+
+.adam {
+    width: 300px;
+    height: 600px;
+    justify-content: center;
+}
+
+.Adam {
+    display: flex;
+    flex-direction: column
+}
+
+.linda {
+    width: 300px;
+    height: 100px;
+}
+
+.Linda {
+    display: flex;
+    flex-direction: column;
+}
+
+.marry {
+    width: 300px;
+    height: 100px;
+}
+
+.Marry {
+    display: flex;
+    flex-direction: column;
+}
+
+.largeimage {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+}
+
+.imageprojects {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagepro1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bureau {
+    width: 300px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 20pc;
+}
+
+.deux_trucs {
+    width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    margin-right: 5pc;
+}
+
+.imagepro2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fille {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 30pc
+}
+
+.img31 {
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10pc;
+}
+
+.imgpro22 {
+    display: flex;
+}
+
+.projects {
+    margin-bottom: 30pc;
+    margin-left: 30pc;
+    font-size: 10pc;
+}
+
+.imagettes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: -300px;
+}
+
+.article_evidentp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.article_evident {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    ;
+    height: 200px;
+    justify-content: center;
+}
+
+.formulaire {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: orange
+}
+
+.title {
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.button{background-color: orange;
+color:white}
+
+footer{background-color: black;
+color: white; text-align: center;
+font-size:smaller}
